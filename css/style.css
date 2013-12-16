@@ -1,0 +1,100 @@
+body {
+	background-color: #f9f9f9;
+}
+.demo-wrapper {
+	width: 550px;
+	margin: 50px auto 0;
+}
+.destination-form {
+	box-shadow:  0px 1px 2px 0px rgba(0, 0, 0, .2);
+}
+.destination-place {
+	padding: 30px 15px;
+	border-radius: 0px 0px 3px 3px;
+	background-color: #fff;
+}
+.destination-title {
+	margin: 0;
+	color: #fff;
+	font-size: 1em;
+	padding: 0 15px;
+	height: 35px;
+	line-height: 38px;
+	background: #3f4c6b;
+	background: -moz-linear-gradient(top,  #3f4c6b 0%, #394160 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3f4c6b), color-stop(100%,#394160));
+	background: -webkit-linear-gradient(top,  #3f4c6b 0%,#394160 100%);
+	background: -o-linear-gradient(top,  #3f4c6b 0%,#394160 100%);
+	background: -ms-linear-gradient(top,  #3f4c6b 0%,#394160 100%);
+	background: linear-gradient(to bottom,  #3f4c6b 0%,#394160 100%);
+	font-weight: normal;
+	border-radius: 3px 3px 0px 0px;
+}
+.destination-place input[type=text] {
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .2);
+	background-color: #fff;
+	padding: 0 5px;
+	height: 30px;
+	font-size: 0.8em;
+	width: 200px;
+	line-height: 30px;
+	float: left;
+	margin-right: 4px;
+}
+.destination-place button {
+	background: #39a2d6;
+	background: -moz-linear-gradient(top,  #39a2d6 0%, #258dc8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#39a2d6), color-stop(100%,#258dc8));
+	background: -webkit-linear-gradient(top,  #39a2d6 0%,#258dc8 100%);
+	background: -o-linear-gradient(top,  #39a2d6 0%,#258dc8 100%);
+	background: -ms-linear-gradient(top,  #39a2d6 0%,#258dc8 100%);
+	background: linear-gradient(to bottom,  #39a2d6 0%,#258dc8 100%);
+	border: 1px solid #333;
+	font-size: .8em;
+	height: 30px;
+	border-radius: 2px;
+	background-color: #34a7e8;
+	font-weight: bold;
+	border: 1px solid #4780b2;
+	color: #fff;
+	padding: 0px 20px;
+}
+.destination-place ul.datalist {
+	margin: 0;
+	padding: 0 !important;
+}
+.destination-place > div[style] {
+	float: left;
+}
+.destination-place .datalist li {
+	font-size: 1em;
+	margin: 0;
+	padding: 2px;
+}
+.destination-place .datalist li:hover {
+	cursor: pointer;
+	background-color: grey;
+	color: #fff;
+}
+ul.datalist{
+	position: absolute;
+	left: 0;
+	margin: 0;
+	padding: 0 2px;
+	list-style: none;
+	border: 1px solid #ccc;
+	-moz-box-shadow: 0px 2px 3px #ccc;
+	-webkit-box-shadow: 0px 2px 3px #ccc;
+	box-shadow: 0px 2px 3px #ccc;
+	z-index: 99;
+	background: #fff;
+	cursor: default;
+	display:none;
+}
+.mydiv{
+	position: relative;
+	display:block;
+	float:left;
+}
